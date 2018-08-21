@@ -12,6 +12,8 @@
 		F4CE044C212C21F4008AAB88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CE044A212C21F4008AAB88 /* Main.storyboard */; };
 		F4CE044E212C21F6008AAB88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CE044D212C21F6008AAB88 /* Assets.xcassets */; };
 		F4CE0451212C21F6008AAB88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CE044F212C21F6008AAB88 /* LaunchScreen.storyboard */; };
+		F4CE0459212C3153008AAB88 /* PushButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE0458212C3153008AAB88 /* PushButton.swift */; };
+		F4CE045B212C3C8A008AAB88 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CE045A212C3C8A008AAB88 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F4CE044D212C21F6008AAB88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4CE0450212C21F6008AAB88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4CE0452212C21F6008AAB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CE0458212C3153008AAB88 /* PushButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushButton.swift; sourceTree = "<group>"; };
+		F4CE045A212C3C8A008AAB88 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				F4CE0446212C21F4008AAB88 /* AppDelegate.swift */,
 				F4CE0448212C21F4008AAB88 /* ViewController.swift */,
 				F4CE044A212C21F4008AAB88 /* Main.storyboard */,
+				F4CE045A212C3C8A008AAB88 /* CounterView.swift */,
 				F4CE044D212C21F6008AAB88 /* Assets.xcassets */,
 				F4CE044F212C21F6008AAB88 /* LaunchScreen.storyboard */,
 				F4CE0452212C21F6008AAB88 /* Info.plist */,
+				F4CE0458212C3153008AAB88 /* PushButton.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				F4CE0449212C21F4008AAB88 /* ViewController.swift in Sources */,
 				F4CE0447212C21F4008AAB88 /* AppDelegate.swift in Sources */,
+				F4CE0459212C3153008AAB88 /* PushButton.swift in Sources */,
+				F4CE045B212C3C8A008AAB88 /* CounterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
