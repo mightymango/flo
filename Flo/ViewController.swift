@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var counterView: CounterView!
     @IBOutlet weak var counterLabel: UILabel!
     
+    let numberOfGlasses = 8
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,7 +31,7 @@ class ViewController: UIViewController {
 
     @IBAction func pushButtonPressed(_ button: PushButton) {
         if button.isAddButton {
-            if counterView.counter < 8 {
+            if counterView.counter < numberOfGlasses {
                 counterView.counter += 1
             }
         } else {
